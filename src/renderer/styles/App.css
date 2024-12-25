@@ -2,7 +2,12 @@
  * @NOTE: Prepend a `~` to css file paths that are in your node_modules
  *        See https://github.com/webpack-contrib/sass-loader#imports
  */
-body {
+::selection {
+  color: #ffffff;
+  background: #7c7c7c;
+}
+
+ body {
   position: relative;
   color: white;
   height: 100vh;
